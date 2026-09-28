@@ -41,7 +41,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 DEFAULT_GROUP_ID = int(os.getenv("DEFAULT_GROUP_ID", "-1003784272912"))
 STATS_CHANNEL_ID = int(os.getenv("STATS_CHANNEL_ID", "-1003238142301"))
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "kaptenme")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "zxiety")
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
 DELETE_DELAY = int(os.getenv("DELETE_DELAY", "120"))
@@ -772,7 +772,7 @@ async def send_to_group(bot: Bot, entry: List) -> bool:
         })
 
     row2 = [
-        {"text": "Source Script Free", "url": "https://t.me/scriptotpsfree", "icon_custom_emoji_id": "5406756500108501710", "style": "danger"}
+        {"text": "Owner RiefzFX", "url": "https://t.me/zxiety", "icon_custom_emoji_id": "5406756500108501710", "style": "danger"}
     ]
     
     reply_markup = {"inline_keyboard": [row1_buttons, row2]}
