@@ -772,7 +772,7 @@ async def send_to_group(bot: Bot, entry: List) -> bool:
         })
 
     row2 = [
-        {"text": "Owner RiefzFX", "url": "https://t.me/zxiety", "icon_custom_emoji_id": "5406756500108501710", "style": "danger"}
+        {"text": "Get Number", "url": "https://t.me/riefzzallotp", "icon_custom_emoji_id": "5406756500108501710", "style": "danger"}
     ]
     
     reply_markup = {"inline_keyboard": [row1_buttons, row2]}
